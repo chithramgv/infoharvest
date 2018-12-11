@@ -1,0 +1,83 @@
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+<link rel="stylesheet" href="reg.css">
+</head>
+<body>
+<form action="reg.php" method="POST" id="form_login">
+<h1 style="color:blue";> REGISTRATION PAGE</h1>
+    <table>
+        <tbody>
+<!-- This code is contains 7 input fields the information is passed to reg.php file using post method-->
+     <tr> <div class="label">
+         <td>
+            <label>First Name</label>
+         </td>
+         <td>
+        <input type="text"  placeholder="Enter First Name" name="fname" required/>
+         </td>
+</div>
+     </tr>
+
+    <tr><div class="label">
+        <td>
+        <label>Last Name</label>
+        </td>
+        <td>
+        <input type="text"  placeholder="Enter Last Name" name="lname"/>
+        </td>
+    </div></tr>
+    <tr>
+    <div class="label">
+        <td>
+            <label>Email</label> </td>
+        <td>
+        <input type="text"  placeholder="Enter Email" name="email" required/>
+        </td>
+    </div></tr>
+    <tr>
+<div class="label">
+<td>
+    <label> Password</label>
+</td>
+    <td>
+    <input type="password"  placeholder="Enter Password" name="pass" required/>
+    </td>
+</div>
+    </tr>
+    <tr>
+<div class="label">
+    <td>
+    <label>Confirm Password</label>
+    </td>
+    <td>
+    <input type="password"  placeholder="Confirm Password" name="cpass" required/>
+    </td>
+</div>
+    </tr>
+    <tr>
+<div class="label">
+    <td>
+    <label>Phone Number</label>
+    </td>
+    <td>
+    <input type="number" placeholder="Enter Phone Number" name="phone" required/>
+    </td>
+</div>
+    </tr>
+    <tr>
+<div class="label">
+    <td>
+    <input type="Submit" align="center" value="Submit">
+    </td>
+    <td>
+    <a href="login.html" style='color:white;font-family:verdana';> Already Have an Account</a>
+    </td>
+
+</div>
+    </tr>
+        </tbody>
+</table>
+</form>
+</body>
+</html>
+
